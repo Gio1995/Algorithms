@@ -9,3 +9,6 @@ Algorithm to implement critical section without the use of the semaphores. This 
 
 -Eisenberg and McGuire:
 Algorithm to implement critical section without the use of the semaphores. This algorithm implement an array flags of type "enum state" where each cell can take three values: IDLE, WAITING and ACTIVE. Each process decides to set, using these values, its own status.
+
+-Bakery:
+Algorithm to implement critical section without the use of the semaphores. This algorithm implement the idea that every process to be executed should take a number, as well as people when they have to book the bread.
