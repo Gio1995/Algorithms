@@ -25,7 +25,7 @@ void *thread1(){
 	for( ; ; ){
 		
 		c1 = 0;
-		while(c2 = 0){
+		while(c2 == 0){
 			if(turn == 2){
 				c1 = 1;
 				while(turn == 2);
@@ -45,7 +45,7 @@ void *thread2(){
 	for( ; ; ){
 		
 		c2 = 0;
-		while(c1 = 0){
+		while(c1 == 0){
 			if(turn == 1){
 				c2 = 1;
 				while(turn == 1);
